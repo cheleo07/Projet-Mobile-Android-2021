@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ProjetDevMobile</string>
+    <string name="MainLayout">Main</string>
+    <string name="BtnNature">Nature</string>
+    <string name="BtnEspace">Espace</string>
+    <string name="BtnBack">Back</string>
+</resources>
