@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
+    tools:context=".HomeActivity"
     android:orientation="vertical"
     >
 
@@ -19,17 +19,17 @@
         android:layout_weight="1"/>
 
     <Button
-        android:id="@+id/btnNature"
-        android:layout_width="200dp"
-        android:layout_height="50dp"
-        android:text="@string/BtnNature"
+        android:id="@+id/BtnZone1"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:text="@string/BtnZone1"
         android:layout_gravity="center_horizontal" />
 
     <Button
-        android:id="@+id/btnEspace"
-        android:layout_width="200dp"
-        android:layout_height="50dp"
-        android:text="@string/BtnNature"
+        android:id="@+id/BtnZone2"
+        android:text="@string/BtnZone2"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
         android:layout_gravity="center_horizontal" />
 
     <RelativeLayout

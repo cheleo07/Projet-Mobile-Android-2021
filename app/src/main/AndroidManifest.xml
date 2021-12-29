@@ -12,7 +12,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProjetDevMobile">
         <activity
-            android:name=".DetailActivity"
+            android:name=".Categories"
+            android:exported="false" />
+        <activity
+            android:name=".StudentInfo"
+            android:exported="false" />
+        <activity
+            android:name=".GroupInfo"
             android:exported="false" />
         <activity
             android:name=".BaseActivity"
@@ -27,8 +33,8 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
-            android:exported="true"></activity>
+            android:name=".HomeActivity"
+            android:exported="true" />
     </application>
 
 </manifest>

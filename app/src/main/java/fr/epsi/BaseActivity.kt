@@ -1,7 +1,9 @@
 package fr.epsi
 
+import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.text.method.LinkMovementMethod
 import android.view.View
 import android.widget.Button
 import android.widget.ImageView
@@ -20,6 +22,12 @@ open class BaseActivity : AppCompatActivity() {
     fun setHeaderTitle(text:String){
         val textViewTitle = findViewById<TextView>(R.id.textViewTitle)
         textViewTitle.text=text
+    }
+
+    fun setupHyperlink(){
+        val linkTextView = findViewById<TextView>(R.id.EpsiLink)
+        linkTextView.movementMethod = LinkMovementMethod.getInstance()
+        linkTextView.setLinkTextColor(Color.BLUE)
     }
 
 

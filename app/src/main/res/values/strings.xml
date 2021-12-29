@@ -1,7 +1,11 @@
 <resources>
     <string name="app_name">ProjetDevMobile</string>
     <string name="MainLayout">Main</string>
-    <string name="BtnNature">Nature</string>
-    <string name="BtnEspace">Espace</string>
+    <string name="BtnZone1">Zone 1</string>
+    <string name="BtnZone2">Zone 2</string>
+    <string name="BtnEtudiant">Etudiant 1</string>
+    <string name="NomEtudiant">Chevalier Léo</string>
+    <string name="MailEtudiant">leo.chevalier@espi.fr</string>
+    <string name="EpsiLink">https://www.epsi.fr/</string>
     <string name="BtnBack">Back</string>
 </resources>
