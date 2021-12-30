@@ -12,13 +12,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProjetDevMobile">
         <activity
-            android:name=".Categories"
+            android:name=".ProduitListeActivity"
             android:exported="false" />
         <activity
-            android:name=".StudentInfo"
+            android:name=".ProduitDetailActivity"
             android:exported="false" />
         <activity
-            android:name=".GroupInfo"
+            android:name=".CategorieActivity"
+            android:exported="false" />
+        <activity
+            android:name=".StudentInfoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GroupInfoActivity"
             android:exported="false" />
         <activity
             android:name=".BaseActivity"

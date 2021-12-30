@@ -6,6 +6,7 @@
     <string name="BtnEtudiant">Etudiant 1</string>
     <string name="NomEtudiant">Chevalier Léo</string>
     <string name="MailEtudiant">leo.chevalier@espi.fr</string>
+    <string name="InfoEtudiant">Developpeur Full-Stack chez Slasher</string>
     <string name="EpsiLink">https://www.epsi.fr/</string>
     <string name="BtnBack">Back</string>
 </resources>

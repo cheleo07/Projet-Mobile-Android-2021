@@ -14,26 +14,26 @@ class HomeActivity : BaseActivity() {
         var btnZone2 = findViewById<Button>(R.id.BtnZone2)
 
         btnZone1.setOnClickListener(View.OnClickListener {
-            val newIntent = Intent(application,GroupInfo::class.java)
+            val newIntent = Intent(application,GroupInfoActivity::class.java)
             newIntent.putExtra("title","Infos")
             startActivity(newIntent)
         })
 
         btnZone2.setOnClickListener(View.OnClickListener {
-            val newIntent = Intent(application,GroupInfo::class.java)
+            val newIntent = Intent(application,CategorieActivity::class.java)
             newIntent.putExtra("title","Rayons")
             startActivity(newIntent)
         })
 
         /*btnZone1.setOnClickListener(View.OnClickListener {
-            val newIntent = Intent(application,GroupInfo::class.java)
+            val newIntent = Intent(application,GroupInfoActivity::class.java)
             newIntent.putExtra("title","Infos")
             newIntent.putExtra("urlImage","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROFiHOkKUHVBF3TcyU1NgawBlIV9mIoSGAuA&usqp=CAU")
             startActivity(newIntent)
         })
 
         btnZone2.setOnClickListener(View.OnClickListener {
-            val newIntent = Intent(application,GroupInfo::class.java)
+            val newIntent = Intent(application,GroupInfoActivity::class.java)
             newIntent.putExtra("title","Rayons")
             newIntent.putExtra("urlImage","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRj0AEwRdUSWfs2LPDlLKn9kI-KvverDKfy0w&usqp=CAU")
             startActivity(newIntent)

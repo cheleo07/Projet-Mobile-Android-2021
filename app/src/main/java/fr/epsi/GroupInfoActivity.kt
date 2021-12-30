@@ -5,7 +5,7 @@ import android.os.Bundle
 import android.view.View
 import android.widget.Button
 
-class GroupInfo : BaseActivity() {
+class GroupInfoActivity : BaseActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_group_info)
@@ -13,7 +13,7 @@ class GroupInfo : BaseActivity() {
         var btnEtudiant = findViewById<Button>(R.id.BtnEtudiant)
 
         btnEtudiant.setOnClickListener(View.OnClickListener {
-            val newIntent = Intent(application,StudentInfo::class.java)
+            val newIntent = Intent(application,StudentInfoActivity::class.java)
             newIntent.putExtra("title","Infos Etudiant")
             newIntent.putExtra("urlImage","https://www.pngall.com/wp-content/uploads/12/Avatar-Profile-Vector-PNG-File.png")
             startActivity(newIntent)
